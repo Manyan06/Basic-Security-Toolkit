@@ -1,50 +1,45 @@
 # 🔐 Basic Security Tools
-
+ 
 A collection of basic cybersecurity programs built using Python.  
 This project is intended for **learning and demonstration purposes**.
-
+ 
 ---
-
+ 
 ## 📌 Overview
-
+ 
 This repository includes simple implementations of core security concepts such as:
-
+ 
 - Encryption techniques
 - Password analysis
 - Controlled input logging
 - Network packet inspection
-
 ---
-
+ 
 ## 🛠️ Tools Included
-
+ 
 ### 1. Caesar Cipher
-
+ 
 - Encrypts and decrypts text using a shift-based substitution method.
-
 ### 2. Image Encryption Tool
-
+ 
 - Applies pixel manipulation techniques:
   - Mathematical transformations
   - Optional pixel shuffling
 - Supports both encryption and decryption of images.
-
 ### 3. Password Strength Checker
-
+ 
 Evaluates password strength based on:
-
+ 
 - Length
 - Character variety (uppercase, lowercase, numbers, symbols)
 - Repeated characters
 - Common patterns (e.g., `qwerty`, `aaaa`)
-
 ### 4. Keystroke Logger (In-App Only)
-
+ 
 - Logs key inputs **within a controlled application window**
 - Does **not** capture system-wide input
-
 ### 5. Network Packet Analyzer
-
+ 
 - Captures live network packets using **Scapy**
 - Displays:
   - Source IP address
@@ -52,44 +47,41 @@ Evaluates password strength based on:
   - Protocol (TCP / UDP / ICMP)
   - Ports
   - Payload preview (if available)
-
 ---
-
+ 
 ## ⚙️ Requirements
-
+ 
 - Python 3.x
-
 ### Required Libraries
-
+ 
 ```bash
 pip install scapy pillow numpy
 ```
-
+ 
 ### 🪟 Windows Users
-
+ 
 - Install Npcap (required for packet capture)
 - Run the packet analyzer with administrator privileges
-
 ---
-
+ 
 ## ▶️ How to Run
-
+ 
 Run each tool individually:
-
+ 
 ```bash
 python filename.py
 ```
-
+ 
 ### Example
-
+ 
 ```bash
 python password_checker.py
 ```
-
+ 
 ---
-
+ 
 ## 📂 Project Structure
-
+ 
 ```
 Cybersecurity-Tools/
 │── caesar_cipher.py
@@ -99,11 +91,11 @@ Cybersecurity-Tools/
 │── packet_analyzer.py
 │── README.md
 ```
-
+ 
 ---
-
+ 
 ## ⚠️ Disclaimer
-
+ 
 - This project is created for **educational purposes only**.
 - These tools are simplified and not intended for real-world security use.
 - The packet analyzer captures only visible traffic and cannot decrypt encrypted communications (e.g., HTTPS).
