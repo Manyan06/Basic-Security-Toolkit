@@ -1,0 +1,101 @@
+# Cybersecurity Tools
+
+A collection of basic cybersecurity-related programs built using Python.
+This project is intended for learning and demonstration purposes.
+
+---
+
+## 📌 Overview
+
+This repository contains simple implementations of common security concepts such as encryption, password analysis, input logging (within an application) and network packet inspection.
+
+---
+
+## 🛠️ Tools Included
+
+### 1. Caesar Cipher
+
+* Encrypts and decrypts text using a shift-based substitution method.
+
+### 2. Image Encryption Tool
+
+* Applies pixel manipulation (mathematical transformation + optional shuffling) to encrypt and decrypt images.
+
+### 3. Password Strength Checker
+
+* Evaluates password strength based on:
+
+  * Length
+  * Character variety
+  * Repeated characters
+  * Common patterns (e.g., "qwerty", "aaaa")
+
+### 4. Keystroke Logger (In-App Only)
+
+* Logs key inputs within a controlled application window.
+* Does not capture system-wide input.
+
+### 5. Network Packet Analyzer
+
+* Captures live network packets using Scapy.
+* Displays:
+
+  * Source/Destination IP
+  * Protocol (TCP/UDP/ICMP)
+  * Ports
+  * Payload preview (if available)
+
+---
+
+## ⚙️ Requirements
+
+* Python 3.x
+* Required libraries:
+
+  ```bash
+  pip install scapy pillow numpy
+  ```
+
+### Windows Users
+
+* Install **Npcap** (required for packet capture)
+* Run packet sniffer with administrator privileges
+
+---
+
+## ▶️ How to Run
+
+Run each tool individually:
+
+```bash
+python filename.py
+```
+
+Example:
+
+```bash
+python password_checker.py
+```
+
+---
+
+## ⚠️ Disclaimer
+
+This project is created for educational purposes only.
+
+* The tools are simplified and not intended for real-world security use.
+* The packet sniffer captures only visible traffic and cannot decrypt encrypted communications (e.g., HTTPS).
+* The keystroke logger works only within the application and does not perform background monitoring.
+
+---
+
+## 📚 Learning Objectives
+
+* Understand basic encryption techniques
+* Explore password security principles
+* Learn event handling in Python
+* Analyze network packets at a basic level
+
+---
+
+Developed as part of cybersecurity learning and practice.
