@@ -89,22 +89,3 @@ python password_checker.py
 ---
 
 ## 📂 Project Structure
-
-```
-Cybersecurity-Tools/
-│── caesar_cipher.py
-│── image_encryption.py
-│── password_checker.py
-│── keylogger_app.py
-│── packet_analyzer.py
-│── README.md
-```
-
----
-
-## ⚠️ Disclaimer
-
-- This project is created for **educational purposes only**.
-- These tools are simplified and not intended for real-world security use.
-- The packet analyzer captures only visible traffic and cannot decrypt encrypted communications (e.g., HTTPS).
-- The keystroke logger operates only within the application and does not perform background monitoring.
