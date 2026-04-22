@@ -1,13 +1,13 @@
 # Cybersecurity Tools
 
-A collection of basic cybersecurity-related programs built using Python.
+A collection of basic cybersecurity programs built using Python.
 This project is intended for learning and demonstration purposes.
 
 ---
 
 ## 📌 Overview
 
-This repository contains simple implementations of common security concepts such as encryption, password analysis, input logging (within an application) and network packet inspection.
+This repository includes simple implementations of core security concepts such as encryption, password analysis, controlled input logging, and network packet inspection.
 
 ---
 
@@ -19,7 +19,7 @@ This repository contains simple implementations of common security concepts such
 
 ### 2. Image Encryption Tool
 
-* Applies pixel manipulation (mathematical transformation + optional shuffling) to encrypt and decrypt images.
+* Applies pixel manipulation (mathematical transformation and optional shuffling) to encrypt and decrypt images.
 
 ### 3. Password Strength Checker
 
@@ -28,7 +28,7 @@ This repository contains simple implementations of common security concepts such
   * Length
   * Character variety
   * Repeated characters
-  * Common patterns (e.g., "qwerty", "aaaa")
+  * Common patterns (e.g., `qwerty`, `aaaa`)
 
 ### 4. Keystroke Logger (In-App Only)
 
@@ -40,8 +40,8 @@ This repository contains simple implementations of common security concepts such
 * Captures live network packets using Scapy.
 * Displays:
 
-  * Source/Destination IP
-  * Protocol (TCP/UDP/ICMP)
+  * Source and destination IP addresses
+  * Protocol (TCP / UDP / ICMP)
   * Ports
   * Payload preview (if available)
 
@@ -52,14 +52,14 @@ This repository contains simple implementations of common security concepts such
 * Python 3.x
 * Required libraries:
 
-  ```bash
-  pip install scapy pillow numpy
-  ```
+```bash
+pip install scapy pillow numpy
+```
 
 ### Windows Users
 
 * Install **Npcap** (required for packet capture)
-* Run packet sniffer with administrator privileges
+* Run the packet sniffer with administrator privileges
 
 ---
 
@@ -79,13 +79,27 @@ python password_checker.py
 
 ---
 
+## 📂 Suggested Project Structure
+
+```
+Cybersecurity-Tools/
+│── caesar_cipher.py
+│── image_encryption.py
+│── password_checker.py
+│── keylogger_app.py
+│── packet_analyzer.py
+│── README.md
+```
+
+---
+
 ## ⚠️ Disclaimer
 
 This project is created for educational purposes only.
 
-* The tools are simplified and not intended for real-world security use.
-* The packet sniffer captures only visible traffic and cannot decrypt encrypted communications (e.g., HTTPS).
-* The keystroke logger works only within the application and does not perform background monitoring.
+* The tools are simplified and not intended for real-world security use
+* The packet sniffer captures only visible traffic and cannot decrypt encrypted communications (e.g., HTTPS)
+* The keystroke logger operates only within the application and does not perform background monitoring
 
 ---
 
@@ -97,5 +111,16 @@ This project is created for educational purposes only.
 * Analyze network packets at a basic level
 
 ---
+
+## 🚀 Future Improvements
+
+* Unified GUI for all tools
+* Advanced password entropy analysis
+* Network traffic filtering and visualization
+* Integration of stronger encryption methods (e.g., AES)
+
+---
+
+## 👤 Author
 
 Developed as part of cybersecurity learning and practice.
