@@ -1,11 +1,11 @@
-# 🔐 Basic Security Tools
+#🔐 Basic Security Tools
 
 A collection of basic cybersecurity programs built using Python.  
 This project is intended for **learning and demonstration purposes**.
 
 ---
 
-## 📌 Overview
+##📌 Overview
 
 This repository includes simple implementations of core security concepts such as:
 
@@ -16,14 +16,14 @@ This repository includes simple implementations of core security concepts such a
 
 ---
 
-## 🛠️ Tools Included
+##🛠️ Tools Included
 
-### 1. Caesar Cipher
+###1. Caesar Cipher
 - Encrypts and decrypts text using a shift-based substitution method.
 
 ---
 
-### 2. Image Encryption Tool
+###2. Image Encryption Tool
 - Applies pixel manipulation techniques:
   - Mathematical transformations  
   - Optional pixel shuffling  
@@ -31,7 +31,7 @@ This repository includes simple implementations of core security concepts such a
 
 ---
 
-### 3. Password Strength Checker
+###3. Password Strength Checker
 Evaluates password strength based on:
 
 - Length  
@@ -41,13 +41,13 @@ Evaluates password strength based on:
 
 ---
 
-### 4. Keystroke Logger (In-App Only)
+###4. Keystroke Logger (In-App Only)
 - Logs key inputs **within a controlled application window**  
 - Does **not** capture system-wide input  
 
 ---
 
-### 5. Network Packet Analyzer
+###5. Network Packet Analyzer
 - Captures live network packets using **Scapy**
 - Displays:
   - Source IP address  
@@ -58,11 +58,11 @@ Evaluates password strength based on:
 
 ---
 
-## ⚙️ Requirements
+##⚙️ Requirements
 
 - Python 3.x  
 
-### Required Libraries
+###Required Libraries
 
 ```bash
 pip install scapy pillow numpy
